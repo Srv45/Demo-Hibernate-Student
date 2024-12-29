@@ -16,7 +16,7 @@ Before you begin, ensure that you have the following:
 ```
 ├── src
 │   ├── com.example.hibernate
-│   │   ├── MainApp.java
+│   │   ├── MainClass.java
 │   │   ├── Student.java
 │   │   └── HibernateUtil.java
 │   └── hibernate.cfg.xml

@@ -17,6 +17,15 @@ public class MainClass {
 		Transaction tr = ss.beginTransaction();
 
 		Student s = new Student();
-		System.out.println("appln is started...");
+		s.setReg_No(11907066);
+		s.setName("Shubham Verma");
+		s.setEmail("shubham@gmail.com");
+		s.setAge(22);
+		s.setAddress("Pune");
+		ss.persist(s);
+		tr.commit();
+		ss.close();
+		
+		System.out.println(s);
 	}
 }
